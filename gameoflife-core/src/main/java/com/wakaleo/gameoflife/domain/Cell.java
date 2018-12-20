@@ -8,7 +8,7 @@ package com.wakaleo.gameoflife.domain;
  * (positions) in the grid
  */
 public enum Cell {
-	LIVE_CELL("+"), DEAD_CELL(".");
+	LIVE_CELL("*"), DEAD_CELL(".");
 	private String symbol;
 
 	private Cell(String symbol) {
